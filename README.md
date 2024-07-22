@@ -1,5 +1,7 @@
 # spark against vehicle signals storage evaluation
 
+just per personal needs do simple test agaist PG, InfluxDB and DynamoDB local, not for any other purposes.
+
 ## InfluxDB
 
 git clone: https://github.com/jkehres/docker-compose-influxdb-grafana, and then run
