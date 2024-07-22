@@ -37,6 +37,7 @@ from(bucket: "v-signals")
   |> count()
 
 ![](v-signals-bucket-num-1m.png)
+![](bucket-raw-data.png)
 
 to view storage size, run `docker exec -it xxx_container_id bash` to enter into container and then
 run `du -sh /var/lib/influxdb2/engine/data/` to view disk storage size
